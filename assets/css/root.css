@@ -1,0 +1,16 @@
+/* common styles*/
+
+@import url(./global.css);
+@import url(./colors.css);
+@import url(./stylebits.css);
+@import url(./flex.css);
+
+/* component styles */
+
+@import url(./buttons.css);
+@import url(./page-layout.css);
+@import url(./home.css);
+
+/* responsive queries */
+
+@import url(./queries.css);

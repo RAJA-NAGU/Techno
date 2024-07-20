@@ -1,0 +1,252 @@
+/* font size */
+.f10 {
+  font-size: 10px;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f22 {
+  font-size: 22px;
+}
+
+.f24 {
+  font-size: 24px;
+}
+
+.f26 {
+  font-size: 26px;
+}
+
+.f30 {
+  font-size: 30px;
+}
+
+.f36 {
+  font-size: 36px;
+}
+
+.f44 {
+  font-size: 44px;
+
+}
+
+
+/* margin-Bottom */
+.mB8 {
+  margin-bottom: 8px;
+}
+
+.mB12 {
+  margin-bottom: 12px;
+}
+
+.mB16 {
+  margin-bottom: 16px;
+}
+
+.mB20 {
+  margin-bottom: 20px;
+}
+
+.mB22 {
+  margin-bottom: 22px;
+}
+
+.mB24 {
+  margin-bottom: 24px;
+}
+
+.mB30 {
+  margin-bottom: 30px;
+}
+
+.mB36 {
+  margin-bottom: 36px;
+}
+
+.mB44 {
+  margin-bottom: 44px;
+}
+
+.mB50 {
+  margin-bottom: 50px;
+}
+
+/* Margin-top */
+.mT10 {
+  margin-top: 10px;
+}
+
+.mT20 {
+  margin-top: 20px;
+}
+
+.mT30 {
+  margin-top: 30px;
+}
+
+/* margin-right */
+.mR5 {
+  margin-right: 5px;
+}
+
+.mR10 {
+  margin-right: 10px;
+}
+
+.mR15 {
+  margin-right: 15px;
+}
+
+/* margin left */
+.mL30 {
+  margin-left: 30px;
+}
+
+/* padding-inline */
+.p-il-10 {
+  padding-inline: 10px;
+}
+
+.p-il-15 {
+  padding-inline: 15px;
+}
+
+/*padding */
+.p10 {
+  padding: 10px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.p30 {
+  padding: 30px;
+}
+
+/* padding-top */
+.pT10 {
+  padding-top: 10px;
+}
+
+.pT15 {
+  padding-top: 15px;
+}
+
+.pT20 {
+  padding-top: 20px;
+}
+
+.pT30 {
+  padding-top: 30px;
+}
+
+.pT100 {
+  padding-top: 100px;
+}
+
+/* padding-bottom */
+.pB20 {
+  padding-bottom: 20px;
+}
+
+.pB40 {
+  padding-bottom: 40px;
+}
+
+/* padding-left */
+.pL15 {
+  padding-left: 15px;
+}
+
+/* padding-right */
+.pR15 {
+  padding-right: 15px;
+}
+
+
+/* width percentage*/
+.w25pe {
+  width: 25%;
+}
+
+.w50pe {
+  width: 50%;
+}
+
+.w70pe {
+  width: 70%;
+}
+
+.w90pe {
+  width: 90%;
+}
+
+.w100pe {
+  width: 100%;
+}
+
+
+/* positions */
+.pos-abs {
+  position: absolute;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.post0 {
+  top: 0;
+}
+
+.posr0 {
+  right: 0;
+}
+
+.posl0 {
+  left: 0;
+}
+
+.posb0 {
+  bottom: 0;
+}
+
+/* text-center */
+.tal-c {
+  text-align: center;
+}
+
+/* line-height */
+.lh18 {
+  line-height: 1.8;
+}
+
+/* display inlne-block */
+.d-inline {
+  display: inline-block;
+}
+
+/* display none */
+.hidden {
+  display: none;
+}

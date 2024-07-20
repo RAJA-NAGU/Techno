@@ -1,0 +1,89 @@
+:root {
+  --h-full: 100%;
+  --w-full: 100%;
+  --h-screen: 100vh;
+  --w-screen: 100vw;
+  --br-sm: 5px;
+  --br-full: 50%;
+  --h--secondary-header: 40px;
+  --h--primary-header: 90px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--c-black);
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 44px;
+  line-height: 1.1;
+
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+
+
+/****************************/
+/* Resusable Components */
+/****************************/
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+section:not(:first-child) {
+  padding-block: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--c-primary);
+}

@@ -1,0 +1,63 @@
+.d-flex {
+  display: flex;
+}
+
+.fw-w {
+  flex-wrap: wrap;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-e {
+  justify-content: end;
+}
+
+.al-c {
+  align-items: center;
+}
+
+.al-e {
+  align-items: end;
+}
+
+.al-fs {
+  align-items: flex-start;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
+
+.fs-1 {
+  flex-shrink: 1;
+}
+
+.g10 {
+  gap: 10px;
+}
+
+.g15 {
+  gap: 15px;
+}
+
+.g20 {
+  gap: 20px;
+}
+
+.g25 {
+  gap: 25px;
+}
+
+.g30 {
+  gap: 30px;
+}
