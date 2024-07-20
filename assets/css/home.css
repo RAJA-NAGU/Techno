@@ -19,6 +19,18 @@
   color: var(--c-white);
 }
 
+.heading-primary {
+  font-size: 64px;
+}
+
+.heading-secondary {
+  font-size: 44px;
+}
+
+.heading-teritary {
+  font-size: 16px;
+}
+
 /* end section hero */
 
 
@@ -90,6 +102,10 @@
   color: var(--c-white);
   border-radius: var(--br-sm);
   position: relative;
+}
+
+.about-title {
+  font-size: 20px;
 }
 
 /* END ABOUT SECTION */
@@ -169,6 +185,10 @@
   transition: transform 1s ease;
 }
 
+.feature-title {
+  font-size: 20px;
+}
+
 .front-card {
   transform: rotateY(0deg);
   color: var(--c-white);
@@ -226,6 +246,10 @@
 
 .carousel-link {
   color: var(--c-primary);
+}
+
+.service-title {
+  font-size: 18px;
 }
 
 /* END SECTION SERVICE */
@@ -358,6 +382,10 @@
   z-index: -1;
 }
 
+.member-name {
+  font-size: 20px;
+}
+
 .member-role {
   position: absolute;
   top: 40px;
@@ -426,12 +454,17 @@
   border-color: var(--c-white) transparent transparent var(--c-white);
 }
 
-.user-img {
-  width: 75px;
-  height: 75px;
+.section-testimonial .owl-carousel .testimonial-user-img {
+  width: 70px;
+  height: 65px;
   border-radius: var(--br-full);
   border: 5px solid var(--c-light-gray);
 }
+
+.testimonial-user-name {
+  font-size: 20px;
+}
+
 
 /* END SECTION TESTIMONIAL*/
 
@@ -454,6 +487,10 @@
 
 .footer-box {
   padding: 0 15px 30px;
+}
+
+.footer-title {
+  font-size: 22px;
 }
 
 .footer-description {

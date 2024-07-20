@@ -68,7 +68,7 @@ owl.owlCarousel({
   loop:true,
   // margin:10,
   autoplay:true,
-  autoplayTimeout:1000,
+  autoplayTimeout:2000,
   autoplayHoverPause:true,
   responsiveClass:true,
     responsive:{
