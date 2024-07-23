@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: var(--h-full);
+  height: 100%;
 }
 
 
@@ -63,7 +63,7 @@
     position: absolute;
     left: 0;
     bottom: -30%;
-    width: var(--w-full);
+    width: 100%;
     height: 2px;
     background-image: linear-gradient(to right, #90c3fd, #ff71b8);
     transform: scale(0);
