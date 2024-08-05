@@ -7,9 +7,12 @@
   }
 
   .flip-box {
-    padding: 0 10px 20px;
+    padding: 0 15px 20px;
   }
 
+  .owl-nav {
+    display: none;
+  }
 
 }
 
@@ -134,12 +137,13 @@
   }
 
   .page-nav {
-    width: var(--w-screen);
-    height: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: var(--c-white);
     position: absolute;
     top: 50px;
     left: 0;
+    transform: translateX(100%);
     transition: all 0.5s ease-in-out;
 
     /* hide navigation */
@@ -178,7 +182,7 @@
     opacity: 1;
     pointer-events: all;
     visibility: visible;
-    height: var(--h-screen);
+    transform: translateX(0);
   }
 
   .nav-open .icon-menu[name="close-outline"] {
@@ -244,7 +248,7 @@
   }
 
   .flip-card-inner {
-    padding: 30px;
+    padding: 20px;
   }
 
   .section-team {
@@ -284,9 +288,9 @@
     padding-block: 50px;
   }
 
-  .team-box {
+  /* .team-box {
     padding-inline: 5px;
-  }
+  } */
 
   .sticky {
     opacity: 0;
@@ -322,13 +326,13 @@
     font-size: 16px;
   }
 
-  .card-icon-box {
+  /* .card-icon-box {
     padding: 30px 20px;
   }
 
   .back-card .card-title {
     padding: 30px;
-  }
+  } */
 
   .btn {
     padding: 8px 24px;
